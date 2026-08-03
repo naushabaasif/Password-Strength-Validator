@@ -1,4 +1,4 @@
-# 🔐 Password Strength Validator — Built as Automata, Not Regex
+# 🔐 Password Strength Validator
 
 A password validator implemented **twice** using formal computation models — once as a **Deterministic Finite Automaton (DFA)** and once as a **Pushdown Automaton (PDA)** — plus a live **Tkinter GUI** that animates the PDA's finite control and stack in real time as it consumes a password character by character.
 
@@ -142,9 +142,9 @@ Being upfront about this rather than glossing over it:
 
 ```
 password-strength-validator/
-├── dfa_validator.py       # DFA implementation (console)
-├── pda_validator.py       # PDA implementation (console)
-├── pda_gui.py             # Tkinter live visualizer
+├── password_validator_DFA.py       # DFA implementation (console)
+├── password_validator_PDA.py       # PDA implementation (console)
+├── Password_validator_PDA_GUI.py             # Tkinter live visualizer
 └── README.md
 ```
 
@@ -152,11 +152,11 @@ password-strength-validator/
 
 ```bash
 # Console versions
-python dfa_validator.py
-python pda_validator.py
+python password_validator_DFA.py
+python password_validator_PDA.py
 
 # GUI visualizer
-python pda_gui.py
+python Password_validator_PDA_GUI.py
 ```
 
 ---
@@ -165,4 +165,5 @@ python pda_gui.py
 
 Coursework project for **Theory of Automata & Formal Languages**, BSCS.
 
-**Contributors:** Naushaba Asif · Rohban Tariq
+**Contributors:** Naushaba Asif · Rohban Tariq 
+4th Semester - SZABIST Karachi
