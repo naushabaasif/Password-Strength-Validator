@@ -165,5 +165,5 @@ python Password_validator_PDA_GUI.py
 
 Coursework project for **Theory of Automata & Formal Languages**, BSCS.
 
-**Contributors:** Naushaba Asif · Rohban Tariq 
+**Contributors:** Naushaba Asif - 2412485· Rohban Tariq - 2412488
 4th Semester - SZABIST Karachi
