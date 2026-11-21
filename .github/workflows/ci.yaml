@@ -1,0 +1,16 @@
+name: CI Pipeline
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check syntax of all Python files
+        run: python -m py_compile *.py
+      - name: Run validator with a sample password
+        run: echo "Hello@123" | python password_validator_PDA.py
